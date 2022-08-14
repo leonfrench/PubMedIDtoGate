@@ -1,6 +1,11 @@
-Below are the steps to run the brain region text mining software created by Leon French. The software extracts and normalizes brain region mentions. Further information can be found at http://www.chibi.ubc.ca/whitetext .
+This is pretty old code, a related repo is at:
+https://github.com/leonfrench/WhiteTextWeb
 
-Also available in the wiki: https://github.com/leonfrench/public/wiki/WhiteText-installation
+Related datasets are at:
+https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP2/W5IQQV
+
+Below are the steps to run the brain region text mining software created by Leon French. The software extracts and normalizes brain region mentions. 
+
 
 Tested on Ubuntu (desktop) and CentOS (server). Installation steps tested on pavnote-05 (ubuntu).
 
@@ -45,7 +50,7 @@ The main settings for these java programs it the corpus that the program will ru
 
 h4. Loading abstracts to GATE
 
-# download WhiteText corpus from http://www.chibi.ubc.ca/whitetext
+# download WhiteText corpus from https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP2/W5IQQV
 # set whitetext.datastore.location in WhiteText.properties to the unzipped corpus file location <path>/WhiteTextGATEDataStoreV1.3/
 # to download from NCBI webservices open GetAll.java
 ## modify either loadFromQuery or loadFromList methods to load a list of PMID's or download based on a Pubmed query
